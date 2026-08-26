@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "id": "t1_bug_report",
+      "prompt": "The checkout button doesn't work. Every time I click it, I get an error message.",
+      "expected": "The assistant should ask clarifying questions about the bug and collect details"
+    },
+    {
+      "id": "t2_faq_return",
+      "prompt": "How many days do I have to return an item?",
+      "expected": "The assistant should provide the return policy information from the FAQ"
+    },
+    {
+      "id": "t3_other_request",
+      "prompt": "Can you tell me the weather in New York?",
+      "expected": "The assistant should politely redirect to phone support"
+    }
+  ]
+}
